@@ -1,0 +1,69 @@
+.timetab, td, th {
+  border: 1px solid;
+  padding: 10px;
+}
+
+.timetab {
+  width: 50%;
+  border-collapse: collapse;
+  
+}
+
+ body{
+   
+    background-size:cover;
+    background-color: rgb(197, 216, 234);
+    
+
+}
+
+h1{
+    color: rgb(10, 10, 10);
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.chess-board {
+     border-spacing: 30; border-collapse: collapse;
+     margin: auto;
+     
+     }
+
+.chess-board td ,th{
+     border: 1px solid; width: 68px; height: 68px;
+     
+     }
+
+
+.chess-board td:hover{
+    transform: scale(1.3);
+     transition:0.3s;
+}
+
+.chess-board .light { 
+    background: #f5f4f3; 
+}
+.chess-board .dark { 
+    background: #272527; 
+}
+
+
+h5{
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+h5:hover{
+    
+    transform: scale(1.3);
+    transition:0.3s;
+
+} 
+    
+.img{
+   text-align: center;
+   display: flexbox;
+   padding-left: 10px
+}
